@@ -10,6 +10,6 @@ const statusSchema = new Schema(
   }
 );
 
-const Status = mongoose.models.Status || mongoose.model("Selection", statusSchema);
+const Status = mongoose.models.Status || mongoose.model("Status", statusSchema);
 
 export default Status;
